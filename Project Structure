@@ -1,0 +1,12 @@
+terraform-production/
+├── backend.tf
+├── provider.tf
+├── variables.tf
+├── terraform.tfvars
+├── outputs.tf
+├── network.tf
+├── security.tf
+├── compute.tf
+├── alb.tf
+├── s3.tf
+├── data-sources.tf
