@@ -1,12 +1,12 @@
 terraform-production/
-├── backend.tf
-├── provider.tf
-├── variables.tf
-├── terraform.tfvars
-├── outputs.tf
-├── network.tf
-├── security.tf
-├── compute.tf
+├── backend.tf         #For Remote State
+├── provider.tf        
+├── variables.tf      
+├── terraform.tfvars   
+├── outputs.tf         
+├── network.tf         #Highly Available VPC
+├── security.tf        #Security + IAM
+├── compute.tf         #ASG + Launch Template
 ├── alb.tf
 ├── s3.tf
 ├── data-sources.tf
